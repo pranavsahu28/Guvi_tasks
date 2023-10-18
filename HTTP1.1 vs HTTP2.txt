@@ -1,0 +1,40 @@
+Write a blog on Difference between HTTP1.1 vs HTTP2
+
+
+HTTP1
+
+HTTP/1.1, which stands for Hypertext Transfer
+Protocol version 1.1, is a protocol used for 
+transferring data over the World Wide Web. 
+It is an older version of the HTTP protocol, 
+and it has been a fundamental part of the 
+internet for many years.
+
+characteristics of Http1.1
+
+-Request response module
+-text-based
+-one request at a time
+-no multiplexing
+-High latency
+-header overhead
+-No built-in Compression
+
+HTTP2
+
+HTTP/2 is the second major version of the Hypertext
+Transfer Protocol (HTTP), which is used to load web 
+pages in your web browser. It was developed to improve 
+upon the limitations of HTTP/1.1 and enhance the speed 
+and efficiency of web page loading.
+
+Key features
+
+-multiplexing
+-header Compression
+-stream prioritization
+-server push
+-binary protocol
+-backward compatibility
+-secure by default
+-saves bandwidth

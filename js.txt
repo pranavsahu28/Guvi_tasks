@@ -1,0 +1,32 @@
+Write a blog about objects and its internal representation in Javascript
+
+Objects are a fundamental data type in JavaScript, 
+and you'll find them at the core of the language. 
+They represent a collection of related data and functions, 
+often referred to as properties and methods. In JavaScript, 
+objects can be:
+
+- Built-In Objects: These are provided by the JavaScript 
+environment, like Date, Array, and Math.
+- User-Defined Objects: You can create your own objects, 
+defining their structure, properties, and methods.
+
+const person = {
+  name: "John",
+  age: 30,
+  hobbies: ["reading", "hiking"],
+};
+
+Internal representation
+
+- Properties Table: Objects have an internal table that 
+stores properties and their values.
+- Hidden Classes (V8 Engine): The V8 JavaScript engine 
+uses a concept called "hidden classes" to optimize property 
+access. These hidden classes represent the structure of 
+an object, helping the engine access properties more 
+efficiently.
+- Dictionaries (SpiderMonkey Engine): In contrast, 
+engines like SpiderMonkey use dictionaries to store 
+object properties. This makes it more flexible but 
+potentially slower than hidden classes.
